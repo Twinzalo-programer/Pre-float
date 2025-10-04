@@ -295,7 +295,7 @@ with col4:
 
 # Dynamic mode guidance
 if st.session_state.dynamic_mode:
-    st.info("🎯 **Training Challenge**: Adjust your process parameters to maintain optimal performance as feed conditions change!")
+    st.info("")
 
 # Operating guidance
 st.subheader("Operating Guidance")
@@ -309,18 +309,18 @@ with col1:
     st.markdown("- **Higher Luproset** = Lower recovery, Higher grade, Lower Zn loss")   
 
 with col2:
-    st.markdown("**Optimization Tips:**")
+    st.markdown("")
     if recovery < 30:
-        st.markdown("🔧 **To increase recovery:**")
-        st.markdown("- Increase rougher air rate")
-        st.markdown("- Increase jameson air rate")
-        st.markdown("- Reduce luproset dosage")
+        st.markdown("")
+        st.markdown("")
+        st.markdown("")
+        st.markdown("")
     
     
     if tailings_carbon > 3.5:
-        st.markdown("⚠️ **High tailings carbon - check:**")
-        st.markdown("- Reduce luproset (less carbon depressed)")
-        st.markdown("- Increase air rates (more recovery)")
+        st.markdown("")
+        st.markdown("")
+        st.markdown("")
     
 
 # Reset button
